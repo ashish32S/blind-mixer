@@ -1,0 +1,39 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.pub-cache/
+.packages
+pubspec.lock
+
+# Build outputs
+build/
+**/Generated.xcconfig
+**/flutter_export_environment.sh
+
+# Android
+**/local.properties
+**/keystore.properties
+**/.gradle/
+**/app/debug/
+**/app/profile/
+**/app/release/
+
+# iOS/macOS
+**/Pods/
+**/.symlinks/
+**/Flutter/ephemeral/
+**/Flutter/App.framework
+**/Flutter/Flutter.framework
+**/Flutter/Flutter.podspec
+
+# Web
+**/.firebase/
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.iml
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
